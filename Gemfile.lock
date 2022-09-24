@@ -95,6 +95,7 @@ GEM
     nokogiri (1.13.8)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
+    pg (0.21.0)
     puma (3.12.6)
     racc (1.6.0)
     rack (2.2.4)
@@ -180,6 +181,7 @@ DEPENDENCIES
   kaminari
   listen (~> 3.0.5)
   mysql2 (>= 0.3.18, < 0.5)
+  pg (= 0.21.0)
   puma (~> 3.0)
   rails (~> 5.0.6)
   sass-rails (~> 5.0)
